@@ -1,44 +1,40 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+  <a href="https://anuraghazra.github.io/">
+   <img alt="Fyle" src="https://github.com/arlindojos/Fyle/blob/master/src/assets/images/logo-blue.svg" width="120" />
+   <h2 align="center">O seu armazenamento de dados</h2>
+  </a>
+</p>
 
-## Available Scripts
+<p align="center"><b>Mobile</b> / <b>Desktop</b></p>
 
-In the project directory, you can run:
+<p align="center">
+  <img src="https://github.com/arlindojos/Fyle/blob/master/src/assets/images/screen/mobile-design.jpg" alt="Mobile" width="47%" />
+  <img src="https://github.com/arlindojos/Fyle/blob/master/src/assets/images/screen/desktop-design.jpg" alt="Desktop" width="47%" />
+</p>
 
-### `yarn start`
+## 🛠 Estado
+ - Em desenvolvimento
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## 🛠 Techs
+ - [React.js](https://pt-br.reactjs.org/)
+ - [Typescript](https://www.typescriptlang.org/)
+ - [Styled-componets](https://github.com/styled-components/styled-components) 
+ 
+## ⚙ Instalação e Start
+Primeiro certifique-se de que tenha instalado Node.js, antes de seguir os passos abaixo.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+### Clonagem
+Clone o repositório para seu ambiente:
 
-### `yarn test`
+```bash
+> git clone https://github.com/arlindojos/Fyle.git
+```
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+No seu terminal, entra no repositorio clonado e insira o comando: 
+<br />`npm install`  ou `yarn add` #para instalar as dependencias
+<br />`npm run start`  ou `yarn start`  #para inicial a aplicação
 
-### `yarn build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+## ⚙ Contribuição 
+- Clone o repositório para seu ambiente ou fork
+- Faça as suas faça a alterações e melhorias
+- O seu pull request, depois só esperar (Nota: será um prazer ter a sua contribuição)
