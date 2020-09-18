@@ -5,7 +5,7 @@ export default createGlobalStyle`
       margin: 0;
       padding: 0;
       box-sizing: border-box;
-      color: var(--light);
+      color: var(--pale-blue);
   }
 
   body {
@@ -23,7 +23,7 @@ export default createGlobalStyle`
     --grayish-blue: hsl(229, 7%, 55%);
     --dark-blue: hsl(228, 56%, 26%);
     --very-dark-blue: hsl(229, 57%, 11%);
-    --light: #F0F0F7;
+
 
     font-size: 60%;
   }
