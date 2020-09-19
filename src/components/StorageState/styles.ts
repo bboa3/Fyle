@@ -45,13 +45,17 @@ export const State = styled.div`
   border-radius: 0.9rem;
   background: var(--primary);
 
-  margin-top: .3%;
+  margin-top: 0.9%;
   position: relative;
   animation-name: states;
   animation-delay: 1s;
   animation-fill-mode: forwards;
   animation-duration: 1.9s;
   animation-timing-function: ease-out;
+
+  @media only screen and (min-width: 1440px) {
+    margin-top: 0.3%;
+  }
 
   @keyframes states {
     0% {
