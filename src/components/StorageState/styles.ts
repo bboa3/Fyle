@@ -159,3 +159,15 @@ export const StorageLeft = styled.div`
     }
   }
 `;
+
+export const Arrow = styled.div`
+  position: relative;
+  top: -10.9rem;
+  right: -.1rem;
+
+  border-top: 2.5rem solid transparent;
+  border-left: 2.5rem solid transparent;
+  border-right: 2.5rem solid var(--pale-blue);
+  border-bottom: 2.5rem solid transparent;
+  z-index: 1;
+`;

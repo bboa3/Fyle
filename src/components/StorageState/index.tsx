@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, UsedStorage, StateContainer, Dot, State, Storage, StorageLeft } from './styles';
+import { Container, UsedStorage, StateContainer, Dot, State, Storage, Arrow, StorageLeft } from './styles';
 
 
 const StorageState: React.FC = () => {
@@ -18,6 +18,7 @@ const StorageState: React.FC = () => {
       <Storage>
         <span>0 GB</span>
         <span>1000 GB</span>
+        <Arrow />
       </Storage>
 
       <StorageLeft>
