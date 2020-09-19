@@ -1,24 +1,50 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  width: 31rem;
+  position: relative;
+  width: 32rem;
   display: flex;
   flex-direction: column;
   
   background: var(--dark-blue);
   margin: 1rem;
-  padding: 2.5rem 4rem;
+  padding: 2.5rem 4rem 6rem;
   border-radius: 0.9rem;
 `;
 
 export const UsedStorage = styled.div`
   font-size: 1.4rem;
   color: var(--grayish-blue);
+  font-weight: bold;
+`;
+
+export const StateContainer = styled.div`
+  width: 100%;
+  height: 1.8rem;
+  border-radius: 0.9rem;
+  background: var(--very-dark-blue);
+
+  margin-top: 1.2rem;
 `;
 
 export const State = styled.div`
-  width: 100%
-  height: 0.4rem;
+  width: 75%;
+  height: 1.4rem;
+  border-radius: 0.9rem;
+  background: var(--primary);
+
+  margin-top: .8%;
+`;
+
+export const Dot = styled.div`
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  background: var(--pale-blue);
+
+  position: relative;
+  top: -1.2rem;
+  left: 16.8rem;
 `;
 
 export const Storage = styled.div`
@@ -29,12 +55,17 @@ export const Storage = styled.div`
 
   > span {
     font-size: 1.4rem;
+    font-weight: bold;
   }
 `;
 
 export const StorageLeft = styled.div`
+  position: absolute;
+  top: 12rem;
+  left: 7rem;
+
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
   
   width: 18rem;

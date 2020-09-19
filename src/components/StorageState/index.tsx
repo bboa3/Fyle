@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, UsedStorage, State, Storage, StorageLeft } from './styles';
+import { Container, UsedStorage, StateContainer, Dot, State, Storage, StorageLeft } from './styles';
 
 
 const StorageState: React.FC = () => {
@@ -9,13 +9,14 @@ const StorageState: React.FC = () => {
         You´ve used <span>942 GB</span> of your storage
       </UsedStorage>
 
-      <State>
-
-      </State>
+      <StateContainer>
+        <State></State>
+        <Dot></Dot>
+      </StateContainer>
 
       <Storage>
         <span>0 GB</span>
-        <span>100 GB</span>
+        <span>1000 GB</span>
       </Storage>
 
       <StorageLeft>

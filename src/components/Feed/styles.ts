@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import {LogoWhite, Document, Folder, Upload } from '../../assets/Icons';
 
 export const Container = styled.div`
-  width: 31rem;
+  width: 32rem;
   display:  flex;
   flex-direction: column;
 
