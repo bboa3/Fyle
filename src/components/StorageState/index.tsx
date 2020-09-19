@@ -10,8 +10,9 @@ const StorageState: React.FC = () => {
       </UsedStorage>
 
       <StateContainer>
-        <State></State>
-        <Dot></Dot>
+        <State>
+          <Dot></Dot>
+        </State>
       </StateContainer>
 
       <Storage>

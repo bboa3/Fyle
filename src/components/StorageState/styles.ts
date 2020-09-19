@@ -28,12 +28,28 @@ export const StateContainer = styled.div`
 `;
 
 export const State = styled.div`
-  width: 75%;
+  width: 1.2rem;
   height: 1.4rem;
   border-radius: 0.9rem;
   background: var(--primary);
 
   margin-top: .8%;
+  position: relative;
+  animation-name: states;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+  animation-duration: 1.9s;
+  animation-timing-function: ease-out;
+
+  @keyframes states {
+    0% {
+      width: 1.2rem;
+    }
+
+    100% {
+      width: 75%;
+    }
+  }
 `;
 
 export const Dot = styled.div`
@@ -41,10 +57,24 @@ export const Dot = styled.div`
   height: 1rem;
   border-radius: 50%;
   background: var(--pale-blue);
+  top: .2rem;
 
   position: relative;
-  top: -1.2rem;
-  left: 16.8rem;
+  animation-name: statesDot;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+  animation-duration: 1.9s;
+  animation-timing-function: ease-out;
+
+  @keyframes statesDot {
+    0% {
+        left: 0;
+    }
+
+    100% {
+        left: 16.8rem;
+    }
+  }
 `;
 
 export const Storage = styled.div`
