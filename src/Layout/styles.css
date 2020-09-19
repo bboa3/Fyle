@@ -1,7 +1,12 @@
-
-body {
+#container {
   background-image: url("../assets/images/bg-mobile.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+@media only screen and (min-width: 1440px){
+  #container {
+    background-image: url("../assets/images/bg-desktop.png");
+  }
 }

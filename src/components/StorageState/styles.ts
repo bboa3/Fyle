@@ -10,12 +10,24 @@ export const Container = styled.div`
   margin: 1rem;
   padding: 2.5rem 4rem 6rem;
   border-radius: 0.9rem;
+
+  @media only screen and (min-width: 1440px){
+    width: 58rem;
+    top: 3.1rem;
+    margin-left: 3.6rem;
+
+    padding: 5rem;
+  }
 `;
 
 export const UsedStorage = styled.div`
   font-size: 1.4rem;
   color: var(--grayish-blue);
   font-weight: bold;
+
+  @media only screen and (min-width: 1440px){
+      font-size: 1.8rem;
+  }
 `;
 
 export const StateContainer = styled.div`
@@ -33,7 +45,7 @@ export const State = styled.div`
   border-radius: 0.9rem;
   background: var(--primary);
 
-  margin-top: .8%;
+  margin-top: .3%;
   position: relative;
   animation-name: states;
   animation-delay: 1s;
@@ -75,6 +87,18 @@ export const Dot = styled.div`
         left: 16.8rem;
     }
   }
+
+  @media only screen and (min-width: 1440px) {
+    @keyframes statesDot {
+      0% {
+          left: 0;
+      }
+
+      100% {
+          left: 34.7rem;
+      }
+   }
+  }
 `;
 
 export const Storage = styled.div`
@@ -86,6 +110,9 @@ export const Storage = styled.div`
   > span {
     font-size: 1.4rem;
     font-weight: bold;
+    @media only screen and (min-width: 1440px){
+      font-size: 1.6rem;
+    }
   }
 `;
 
@@ -115,5 +142,20 @@ export const StorageLeft = styled.div`
     font-weight: bold;
     margin-left: 1rem;
     margin-right: 2rem;
+  }
+
+  @media only screen and (min-width: 1440px) {
+    width: 22rem;
+    height: 9rem;
+    top: -6.4rem;
+    left: 31.1rem;
+
+    > strong {
+      font-size: 4.8rem;
+    }
+
+    > span {
+      font-size: 1.8rem;
+    }
   }
 `;

@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import {LogoWhite, Document, Folder, Upload } from '../../assets/Icons';
+import { LogoWhite, Document, Folder, Upload } from '../../assets/Icons';
 
 export const Container = styled.div`
   width: 32rem;
@@ -10,6 +10,11 @@ export const Container = styled.div`
   background: var(--dark-blue);
   border-radius: 0.9rem;
   border-top-right-radius: 9.9rem;
+
+  @media only screen and (min-width: 1440px){
+    width: 41rem;
+    padding: 5.4rem 16.4rem 5.4rem 5.4rem;
+  }
 `;
 
 export const LogoContainer = styled.div``;
@@ -31,6 +36,11 @@ export const IconContainer = styled.div`
 
   border-radius: 0.9rem;
   background: var(--very-dark-blue);
+
+  @media only screen and (min-width: 1440px){
+    width: 5.4rem;
+    height: 5.4rem;
+  }
 `;
 
 export const DocumentIcon = styled(Document)``;

@@ -9,8 +9,7 @@ export default createGlobalStyle`
   }
 
   body {
-    height: 100vh;
-    width: 100vw;
+    background: var(--very-dark-blue);
 
     font-size: 1.4rem;
     font-family: 'Raleway', sans-serif;
