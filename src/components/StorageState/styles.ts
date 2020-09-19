@@ -16,7 +16,7 @@ export const Container = styled.div`
     top: 3.1rem;
     margin-left: 3.6rem;
 
-    padding: 5rem;
+    padding: 4rem;
   }
 `;
 
@@ -95,7 +95,7 @@ export const Dot = styled.div`
       }
 
       100% {
-          left: 34.7rem;
+          left: 36.3rem;
       }
    }
   }
@@ -148,7 +148,7 @@ export const StorageLeft = styled.div`
     width: 22rem;
     height: 9rem;
     top: -6.4rem;
-    left: 31.1rem;
+    left: 32.1rem;
 
     > strong {
       font-size: 4.8rem;
@@ -162,7 +162,7 @@ export const StorageLeft = styled.div`
 
 export const Arrow = styled.div`
   position: relative;
-  top: -10.9rem;
+  top: -10.1rem;
   right: -.1rem;
 
   border-top: 2.5rem solid transparent;

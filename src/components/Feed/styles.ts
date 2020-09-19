@@ -12,8 +12,8 @@ export const Container = styled.div`
   border-top-right-radius: 9.9rem;
 
   @media only screen and (min-width: 1440px){
-    width: 41rem;
-    padding: 5.4rem 16.4rem 5.4rem 5.4rem;
+    width: 42rem;
+    padding: 6rem 16.4rem 6rem 5.4rem;
   }
 `;
 
@@ -27,8 +27,8 @@ export const Icons = styled.div`
 `;
 
 export const IconContainer = styled.div`
-  width: 4.7rem;
-  height: 4.7rem;
+  width: 5rem;
+  height: 5rem;
 
   display: flex;
   justify-content: center;
