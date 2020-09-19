@@ -10,7 +10,7 @@ export const Content = styled.div`
   align-items: center;
   height: 100vh;
 
-  @media only screen and (min-width: 1440px){
+  @media only screen and (min-width: 1440px) {
     position: relative;
     flex-direction: row;
     top: -26rem;

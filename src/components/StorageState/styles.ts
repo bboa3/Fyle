@@ -11,7 +11,7 @@ export const Container = styled.div`
   padding: 2.5rem 4rem 6rem;
   border-radius: 0.9rem;
 
-  @media only screen and (min-width: 1440px){
+  @media only screen and (min-width: 1440px) {
     width: 58rem;
     top: 3.1rem;
     margin-left: 3.6rem;
@@ -25,7 +25,7 @@ export const UsedStorage = styled.div`
   color: var(--grayish-blue);
   font-weight: bold;
 
-  @media only screen and (min-width: 1440px){
+  @media only screen and (min-width: 1440px) {
       font-size: 1.8rem;
   }
 `;
@@ -110,7 +110,7 @@ export const Storage = styled.div`
   > span {
     font-size: 1.4rem;
     font-weight: bold;
-    @media only screen and (min-width: 1440px){
+    @media only screen and (min-width: 1440px) {
       font-size: 1.6rem;
     }
   }
@@ -161,13 +161,18 @@ export const StorageLeft = styled.div`
 `;
 
 export const Arrow = styled.div`
-  position: relative;
-  top: -10.1rem;
-  right: -.1rem;
+  display: none;
 
-  border-top: 2.5rem solid transparent;
-  border-left: 2.5rem solid transparent;
-  border-right: 2.5rem solid var(--pale-blue);
-  border-bottom: 2.5rem solid transparent;
-  z-index: 1;
+  @media only screen and (min-width: 1440px) {
+    display: flex;
+    position: relative;
+    top: -10.1rem;
+    right: -.1rem;
+
+    border-top: 2.5rem solid transparent;
+    border-left: 2.5rem solid transparent;
+    border-right: 2.5rem solid var(--pale-blue);
+    border-bottom: 2.5rem solid transparent;
+    z-index: 1;
+  }
 `;

@@ -11,7 +11,7 @@ export const Container = styled.div`
   border-radius: 0.9rem;
   border-top-right-radius: 9.9rem;
 
-  @media only screen and (min-width: 1440px){
+  @media only screen and (min-width: 1440px) {
     width: 42rem;
     padding: 6rem 16.4rem 6rem 5.4rem;
   }
@@ -37,7 +37,7 @@ export const IconContainer = styled.div`
   border-radius: 0.9rem;
   background: var(--very-dark-blue);
 
-  @media only screen and (min-width: 1440px){
+  @media only screen and (min-width: 1440px) {
     width: 5.4rem;
     height: 5.4rem;
   }
