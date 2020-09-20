@@ -154,7 +154,7 @@ export const StorageLeft = styled.div`
     width: 16rem;
     height: 6rem;
     top: -4.4rem;
-    left: 31rem;
+    left: 30.9rem;
   }
 `;
 
