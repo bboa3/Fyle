@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://anuraghazra.github.io/">
+  <a href="https://fyle-snowy.vercel.app/">
    <img alt="Fyle" src="https://github.com/arlindojos/Fyle/blob/master/src/assets/images/logo-blue.svg" width="120" />
    <h2 align="center">Your data storage</h2>
   </a>
