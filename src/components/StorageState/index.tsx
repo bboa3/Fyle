@@ -18,9 +18,10 @@ const StorageState: React.FC = () => {
       <Storage>
         <span>0 GB</span>
         <span>1000 GB</span>
-        <Arrow></Arrow>
       </Storage>
 
+      <Arrow></Arrow>
+      
       <StorageLeft>
         <strong>185</strong>
         <span>GB left</span>

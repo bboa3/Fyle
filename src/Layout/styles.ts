@@ -13,7 +13,7 @@ export const Content = styled.div`
   @media only screen and (min-width: 1440px) {
     position: relative;
     flex-direction: row;
-    top: -26rem;
+    top: -22rem;
 
     height: 50vh;
     margin-top: 50vh;

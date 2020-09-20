@@ -12,11 +12,12 @@ export const Container = styled.div`
   border-radius: 0.9rem;
 
   @media only screen and (min-width: 1440px) {
-    width: 58rem;
-    top: 3.1rem;
-    margin-left: 3.6rem;
+    width: 51rem;
+    height: 15rem;
+    top: 2.5rem;
+    margin-left: 3rem;
 
-    padding: 4rem;
+    padding: 4rem ;
   }
 `;
 
@@ -26,7 +27,7 @@ export const UsedStorage = styled.div`
   font-weight: bold;
 
   @media only screen and (min-width: 1440px) {
-      font-size: 1.8rem;
+      font-size: 1.6rem;
   }
 `;
 
@@ -99,7 +100,7 @@ export const Dot = styled.div`
       }
 
       100% {
-          left: 36.3rem;
+          left: 31rem;
       }
    }
   }
@@ -114,8 +115,9 @@ export const Storage = styled.div`
   > span {
     font-size: 1.4rem;
     font-weight: bold;
+    
     @media only screen and (min-width: 1440px) {
-      font-size: 1.6rem;
+      font-size: 1.5rem;
     }
   }
 `;
@@ -149,18 +151,10 @@ export const StorageLeft = styled.div`
   }
 
   @media only screen and (min-width: 1440px) {
-    width: 22rem;
-    height: 9rem;
-    top: -6.4rem;
-    left: 32.1rem;
-
-    > strong {
-      font-size: 4.8rem;
-    }
-
-    > span {
-      font-size: 1.8rem;
-    }
+    width: 16rem;
+    height: 6rem;
+    top: -4.4rem;
+    left: 31rem;
   }
 `;
 
@@ -170,13 +164,13 @@ export const Arrow = styled.div`
   @media only screen and (min-width: 1440px) {
     display: flex;
     position: relative;
-    top: -10.1rem;
-    right: -.1rem;
+    top: -11.6rem;
+    right: 0.1rem;
 
-    border-top: 2.5rem solid transparent;
-    border-left: 2.5rem solid transparent;
-    border-right: 2.5rem solid var(--pale-blue);
-    border-bottom: 2.5rem solid transparent;
+    border-top: 2rem solid transparent;
+    border-left: 2rem solid transparent;
+    border-right: 2rem solid var(--pale-blue);
+    border-bottom: 2rem solid transparent;
     z-index: 1;
   }
 `;
