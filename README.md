@@ -9,7 +9,7 @@
 
 <p align="center">
   <img src="https://github.com/arlindojos/Fyle/blob/master/src/assets/images/screen/mobile-design.jpg" alt="Mobile" width="47%" />
-  <img src="https://github.com/arlindojos/Fyle/blob/master/src/assets/images/screen/desktop-design.jpg" alt="Desktop" width="47%" />
+  <img src="https://github.com/arlindojos/Fyle/blob/master/src/assets/images/screen/desktop-design.PNG" alt="Desktop" width="47%" />
 </p>
 
 ## 🚧 Under development 🚧
